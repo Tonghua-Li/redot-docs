@@ -118,10 +118,13 @@ Junie (JetBrains)
 
 4.  Save the file. Junie will reload the configuration and start the server.
 
-Codex
+Codex (CLI)
 ~~~~~
-`--quiet` argument is required or it would fail.
-1. `codex mcp add redot -- /path/to/redot.binary --headless --quiet --mcp-server --path /path/to/project`
+``--quiet`` argument is required or it would fail.
+.. code-block:: shell
+
+    codex mcp add redot -- /path/to/redot.binary --headless --quiet --mcp-server --path /path/to/project`
+
 
 Example Prompts
 ---------------
